@@ -1,0 +1,5 @@
+.podcasts-wrapper {
+  display: grid;
+  row-gap: 30px;
+  margin-bottom: 30px;
+}
