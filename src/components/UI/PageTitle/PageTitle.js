@@ -1,6 +1,9 @@
 const PageTitle = (props) => {
   return (
-    <h1>{props.children}</h1>
+    <div>
+      {props.element}
+      <h1>{props.children}</h1>
+    </div>
   );
 }
 
